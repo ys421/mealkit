@@ -12,7 +12,7 @@ const Dashboard: React.FC<DashboardProps> = ({ onButtonClick }) => {
   };
 
   return (
-    <div className="dashboard">
+    <div className="common-button">
       <h2 onClick={handleToggle}>
         Dashboard
         <span className={`triangle ${isOpen ? 'up' : 'down'}`} />

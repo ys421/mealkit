@@ -6,7 +6,7 @@ interface OrderProps {
 
 const Order: React.FC<OrderProps> = ({ onOrderClick }) => {
   return (
-    <button className="order-button" onClick={onOrderClick}>
+    <button className="common-button" onClick={onOrderClick}>
       Order
     </button>
   );

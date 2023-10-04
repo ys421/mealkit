@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onSectionSelect }) => {
       <div className="dashboard-section">
         <Dashboard onButtonClick={handleDashboardClick} />
       </div>
-      <div className="menu-section">
+      <div>
         <Menu onMenuClick={handleMenuClick} />
       </div>
       <div>

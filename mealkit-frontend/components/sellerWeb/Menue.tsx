@@ -6,7 +6,7 @@ interface MenuProps {
 
 const Menu: React.FC<MenuProps> = ({ onMenuClick }) => {
   return (
-    <button className="menu-button" onClick={onMenuClick}>
+    <button className="common-button" onClick={onMenuClick}>
       Menue
     </button>
   );

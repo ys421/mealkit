@@ -6,7 +6,7 @@ interface ReviewProps {
 
 const Review: React.FC<ReviewProps> = ({ onReviewClick }) => {
   return (
-    <button className="review-button" onClick={onReviewClick}>
+    <button className="common-button" onClick={onReviewClick}>
       Review
     </button>
   );

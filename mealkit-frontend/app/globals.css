@@ -56,3 +56,33 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+.sidebar {
+  background-color: sienna; /* 갈색 배경 */
+  width: 15%; /* 너비 설정 */
+  min-width: 200px; /* 최소 너비 설정 */
+  height: 100vh; /* 높이를 뷰포트의 100%로 설정 */
+  padding: 1rem; /* 패딩 추가 */
+  box-sizing: border-box; /* 패딩이 너비에 포함되도록 설정 */
+  display: flex;
+  flex-direction: column; /* 세로 방향으로 아이템 정렬 */
+  gap: 1rem; /* 아이템 사이 간격 설정 */
+}
+
+.dashboard-section,
+.menu-section {
+  display: flex;
+  flex-direction: column; /* 세로 방향으로 아이템 정렬 */
+  gap: 0.5rem; /* 아이템 사이 간격 설정 */
+}
+
+/* 버튼 스타일 */
+.dashboard-section button,
+.common-button {
+  padding: 0.5rem 1rem; /* 패딩 설정 */
+  margin: 0.5rem 0; /* 마진 설정 */
+  border: none; /* 테두리 제거 */
+  cursor: pointer; /* 마우스 커서를 포인터로 설정 */
+  background-color: peru; /* 버튼 배경색 설정 */
+  color: white; /* 글자색 설정 */
+}

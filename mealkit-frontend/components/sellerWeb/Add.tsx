@@ -6,7 +6,7 @@ interface AddProps {
 
 const Add: React.FC<AddProps> = ({ onAddClick }) => {
   return (
-    <button className="add-button" onClick={onAddClick}>
+    <button className="common-button" onClick={onAddClick}>
       Add
     </button>
   );
