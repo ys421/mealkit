@@ -1,27 +1,58 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* globals.css */
+
+/* Common Styles */
+.button {
+  background: lightgray;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.input {
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Specific Styles */
+.store-icon {
+  background: rgb(0, 0, 0);
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  background: rgb(204, 204, 9);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  height: 14.29vh;
+}
+
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
